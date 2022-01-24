@@ -1,0 +1,26 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.bg{
+    background: url('img/Heritage.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: 100vw ;
+    height: 100vh ;
+    filter: blur(0px);
+    z-index: -1;
+}
+
+.loading-text{
+    font-size: 46px;
+    color: white;
+}

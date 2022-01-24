@@ -1,0 +1,65 @@
+
+body{
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+background-color: rgb(97, 93, 93);
+
+padding: 40px 20px;
+border: 0;
+border-radius: 5px;
+}
+form{
+    position: relative;
+}
+h1{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+input{
+    display: block;
+   width: 100%;
+    border: none;
+    border-bottom: 3px white solid;
+    background-color: transparent;
+margin-bottom: 20px;
+}
+
+input:focus, input:valid{
+    outline: none;
+   
+}
+button{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+button:active{
+    transform:scaleY(0.98);
+}
+p{
+    margin-top: 40px;
+}
+label{
+    position: absolute;
+    transform: translateY(-50px);
+}
+
+input:active + label, input:focus + label{
+    background-color: lightblue;
+}

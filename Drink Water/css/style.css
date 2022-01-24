@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.cup{
+    background-color: white;
+    height: 330px;
+    width: 150px;
+    border-radius: 0 0 40px 40px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 20px 0;
+    transition: 0.3s ease;
+}
+
+.cup.small{
+    height: 90px;
+    width: 50px;
+border-radius: 0 0 15px 15px;
+margin: 5px;
+transition: 0.3s ease;
+}
+.cup.small.full{
+    background-color: blue;
+    color: white;
+}
+.cups{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+width: 280px;
+}
+
+.remainder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+#percentage{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
